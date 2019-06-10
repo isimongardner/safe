@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\isimo\\Source\\local\\safe\\src\\Safe.Data\\Safe.Data.csproj": {}
+    "C:\\Users\\isimo\\Source\\local\\safe\\src\\Safe.Runner\\Safe.Runner.csproj": {}
   },
   "projects": {
-    "C:\\Users\\isimo\\Source\\local\\safe\\src\\Safe.Data\\Safe.Data.csproj": {
+    "C:\\Users\\isimo\\Source\\local\\safe\\src\\Safe.Runner\\Safe.Runner.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\isimo\\Source\\local\\safe\\src\\Safe.Data\\Safe.Data.csproj",
-        "projectName": "Safe.Data",
-        "projectPath": "C:\\Users\\isimo\\Source\\local\\safe\\src\\Safe.Data\\Safe.Data.csproj",
+        "projectUniqueName": "C:\\Users\\isimo\\Source\\local\\safe\\src\\Safe.Runner\\Safe.Runner.csproj",
+        "projectName": "Safe.Runner",
+        "projectPath": "C:\\Users\\isimo\\Source\\local\\safe\\src\\Safe.Runner\\Safe.Runner.csproj",
         "packagesPath": "C:\\Users\\isimo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\isimo\\Source\\local\\safe\\src\\Safe.Data\\obj\\",
+        "outputPath": "C:\\Users\\isimo\\Source\\local\\safe\\src\\Safe.Runner\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\ProgramData\\Xamarin\\NuGet\\",
@@ -23,7 +23,7 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netstandard2.0"
+          "netcoreapp3.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -36,7 +36,7 @@
           "https://dotnetfeed.blob.core.windows.net/dotnet-windowsdesktop/index.json": {}
         },
         "frameworks": {
-          "netstandard2.0": {
+          "netcoreapp3.0": {
             "projectReferences": {}
           }
         },
@@ -47,24 +47,15 @@
         }
       },
       "frameworks": {
-        "netstandard2.0": {
-          "dependencies": {
-            "Microsoft.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "(, )"
-            },
-            "NETStandard.Library": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[2.0.3, )",
-              "autoReferenced": true
-            }
-          },
+        "netcoreapp3.0": {
           "imports": [
             "net461"
           ],
           "assetTargetFallback": true,
-          "warn": true
+          "warn": true,
+          "frameworkReferences": [
+            "Microsoft.NETCore.App"
+          ]
         }
       }
     }
